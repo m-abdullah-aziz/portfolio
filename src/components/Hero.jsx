@@ -33,14 +33,14 @@ const Hero = () => {
           </div>
         </div>
         <ComputersCanvas />
-        <div className='absolute bottom-3 w-full 
+        <div className='absolute bottom-6 w-full 
          flex justify-center items-center'>
             <a href="#about">
-              <div className=' w-[35px] h-[64px] rounded-3xl border-4
-               border-secondary flex justify center items-start p-2'>
+              <div className='w-[35px] h-[64px] rounded-3xl border-4 
+                border-secondary flex justify center items-start p-2'>
                 <motion.div 
                   animate={{
-                    y:[0,25,0]
+                    y:[0,23,0]
                   }}
                   transition={{
                     duration:1.5,
