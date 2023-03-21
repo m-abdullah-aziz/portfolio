@@ -7,6 +7,10 @@ import web from "./web.png";
 import djangoLogo from "./djangoLogo.svg"
 import awsLogo from "./awsLogo.png"
 import javaSpringLogo from "./javaSpringLogo.png"
+import ssiLogo from "./ssiLogo.jpeg"
+import systemsLogo from "./systemsLogo.jpeg"
+import rbLogo from "./rbLogo.jpeg"
+import autosoftLogo from "./autosoftLogo.png"
 import github from "./github.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
@@ -66,5 +70,9 @@ export {
   tripguide,
   djangoLogo,
   awsLogo,
-  javaSpringLogo
+  javaSpringLogo,
+  systemsLogo,
+  autosoftLogo,
+  rbLogo,
+  ssiLogo
 };

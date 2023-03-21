@@ -18,6 +18,7 @@
     "react-auto-typing": "^1.0.0",
     "react-dom": "^18.2.0",
     "react-parallax-tilt": "^1.7.117",
+    "react-vertical-timeline-component": "^3.6.0",
     "react-router-dom": "^6.9.0",
     "react-timeline-component": "^0.0.3",
     "three": "^0.150.1"

@@ -1,0 +1,11 @@
+Model Information:
+* title:	IBM XT Clone3 (Sketch Fab)
+* source:	https://sketchfab.com/3d-models/ibm-xt-clone3-sketch-fab-b1bb2b0a77f94852b95b9b8cfae26429
+* author:	Nick Allan (https://sketchfab.com/nickallan)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "IBM XT Clone3 (Sketch Fab)" (https://sketchfab.com/3d-models/ibm-xt-clone3-sketch-fab-b1bb2b0a77f94852b95b9b8cfae26429) by Nick Allan (https://sketchfab.com/nickallan) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
