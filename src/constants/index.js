@@ -1,7 +1,6 @@
 import {
-    mobile,
-    backend,
-    creator,
+    awsLogo,
+    javaSpringLogo,
     web,
     javascript,
     typescript,
@@ -23,6 +22,7 @@ import {
     jobit,
     tripguide,
     threejs,
+    djangoLogo,
   } from "../assets";
   
   export const navLinks = [
@@ -43,19 +43,19 @@ import {
   const services = [
     {
       title: "Java SpringBoot",
-      icon: web,
+      icon: javaSpringLogo,
     },
     {
       title: "Python Django",
-      icon: mobile,
+      icon: djangoLogo,
     },
     {
       title: "Reactjs",
-      icon: backend,
+      icon: reactjs,
     },
     {
       title: "AWS",
-      icon: creator,
+      icon: awsLogo,
     },
   ];
   
