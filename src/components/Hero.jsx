@@ -1,6 +1,7 @@
 import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { ComputersCanvas } from './canvas';
+import AutoTyping, { BlinkCursor } from 'react-auto-typing'
 
 const Hero = () => {
   return (
@@ -13,7 +14,21 @@ const Hero = () => {
           </div>
           <div>
             <h1 className={`${styles.heroHeadText} text-white`}>
-              Hi, I'm <span className="text-[#915eff]">Abdullah</span>
+              Hi, I'm &nbsp;
+              <span className="text-[#915eff]">
+                <AutoTyping
+                  true 
+                  textRef='Abdullah' 
+                  writeSpeed={100} 
+                  deleteSpeed={125} 
+                  delayToWrite={1000} 
+                  delayToDelete={2000}
+                />
+                <BlinkCursor
+                  true 
+                  blinkSpeed={500} 
+                />
+              </span>
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I develop full stack web applications.
