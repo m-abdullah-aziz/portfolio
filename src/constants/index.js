@@ -46,15 +46,15 @@ import {
       icon: web,
     },
     {
-      title: "AWS",
+      title: "Python Django",
       icon: mobile,
     },
     {
-      title: "Python Django",
+      title: "Reactjs",
       icon: backend,
     },
     {
-      title: "React",
+      title: "AWS",
       icon: creator,
     },
   ];

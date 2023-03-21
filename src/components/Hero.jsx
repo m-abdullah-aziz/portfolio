@@ -17,12 +17,12 @@ const Hero = () => {
             </h1>
             <p className={`${styles.heroSubText} mt-2 text-white-100`}>
               I develop full stack web applications.
-              <br className='sm:block hidden'/> I can help you build scalable architectures and have ample experience with data driven apps as well.
+              <br className='sm:block hidden'/> Experienced in building scalable architectures and data driven apps.
             </p>
           </div>
         </div>
         <ComputersCanvas />
-        <div className='absolute xs:bottom-10 xs:mt-80 bottom-32 w-full flex 
+        <div className='absolute xs:bottom-10 bottom-32 w-full flex 
           justify-center items-center'>
             <a href="#about">
               <div className='w-[35px] h-[64px] rounded-3xl border-4
