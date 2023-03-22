@@ -41,7 +41,7 @@ const About = () => {
         className="mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]"
       >
         I am a skilled software engineer, with experince in with Java, Python, 
-        JavaScript and AWS, specializing in backend development. I have 
+        JavaScript and AWS. I have 
         worked with teams from all around the world and I am completely 
         aware of the Agile Eco System. I can help you build a robust, scalable 
         and highly usable web application. I have worked with several domains 
