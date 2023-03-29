@@ -166,7 +166,18 @@
   animation-delay: 0.4s;
 }
 
+.icon {
+  animation: gototop 1.2s linear infinite alternate-reverse;
+}
 
+@keyframes gototop {
+  0% {
+    transform: translateY(-0.5rem);
+  }
+  100% {
+    transform: translateY(0.5rem);
+  }
+}
 
 @keyframes animateArrow {
   0%

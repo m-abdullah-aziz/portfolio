@@ -38,7 +38,7 @@ const Contact = () => {
       const serviceId = "service_vmxhqyq"
       const templateId = "template_q8463ai"
       emailjs.send( serviceId, templateId, {
-        froom_name: form.name,
+        from_name: form.name,
         to_name: 'Muhammad Abdullah Aziz',
         from_email: form.email,
         to_email: 'abdullah.sortup@gmail.com',

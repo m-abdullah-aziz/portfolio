@@ -1,5 +1,5 @@
 import React, { useEffect, useState} from 'react'
-import  { Link } from 'react-router-dom';
+import  { Link } from 'react-scroll';
 
 import { styles } from '../styles';
 import { navLinks }  from '../constants';
@@ -14,7 +14,10 @@ const Navbar = () => {
      fixed top-0 z-20 bg-primary`}>
       <div className='w-full flex justify-between items-center 
         max-w-7xl mx-auto'>
-          <Link to="/" className='flex items-center gap-2'
+          <Link to="/" 
+            spy={true} offset={50} duration={500}
+            smooth={true}
+            className='flex items-center gap-2'
             onClick={ () => {
               setActive("");
               window.scrollTo(0,0,0);
@@ -57,7 +60,12 @@ const Navbar = () => {
                       setToggle(!toggle);
                     }}
                   >
-                    <a href={`#${link.id}`}>{link.title}</a>
+                    <Link 
+                      spy={true} offset={50} duration={500}
+                      smooth={true}
+                      to={`/${link.id}`}>
+                        {link.title}
+                    </Link>
                   </li>
                 ))
                 }
