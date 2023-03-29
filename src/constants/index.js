@@ -117,16 +117,26 @@ import {
   
   const experiences = [
     {
-      title: "Programmer",
-      company_name: "Autosoft Dynamic",
-      icon: autosoftLogo,
+      title: "Software Engineer II",
+      company_name: "Remotebase",
+      icon: rbLogo,
       iconBg: "#FFFFFF",
-      date: "Jul 2019 - May 2020",
+      date: "Dec 2021 - Present",
       points: [
-        "Worked with Python, ASP.NET MVC, JQUERY, MS SQL Server, Elasticsearch, Logstash and Kibana",
-        "Made POC to provide example of how the banking domain could utilize elastic search and reverse index based searches",
-        "Developed pipeline using logstash to port existing warehousing data to elastic search for faster querying",
-        "Trained different engineers regarding using Elastic search and about concepts related to indexing and information retrieval"
+        "Working with Walnut; a financial technology company that deals with resolving healthcare finance issues in the US. Primarily focused as a backend engineer with Java Springboot, AWS and MySQL",
+        "Worked with SWVL as a fullstack software engineer on swvl.com/travel website optimization. Utilizing Kubernetes, Node.js, React.js, MongoDb, Redis and GCP",
+        "Worked on the remotebase platform, utilizing technology stack that involves AWS amplify, Dynamo Db, AWS serverless lambdas, AWS Cognito, Appsync, Python and React.js"
+      ],
+    },
+    {
+      title: "Junior Consultant",
+      company_name: "Systems Limited",
+      icon: systemsLogo,
+      iconBg: "#FFFFFF",
+      date: "Jul 2021 - Nov 2021",
+      points: [
+        "Worked as a part of integration frameworks department. Etisalat is the client for whom I developed full stack solutions with java and angular. Integrated multiple modules and communicated with team to develop the most efficient solutions",
+        "Also worked on Node.js with a team handling the Easypaisa web application for vendors. I helped the team focus on modularisation and streamlined productivity by providing reusable code"
       ],
     },
     {
@@ -142,28 +152,18 @@ import {
       ],
     },
     {
-      title: "Junior Consultant",
-      company_name: "Systems Limited",
-      icon: systemsLogo,
+      title: "Programmer",
+      company_name: "Autosoft Dynamic",
+      icon: autosoftLogo,
       iconBg: "#FFFFFF",
-      date: "Jul 2021 - Nov 2021",
+      date: "Jul 2019 - May 2020",
       points: [
-        "Worked as a part of integration frameworks department. Etisalat is the client for whom I developed full stack solutions with java and angular. Integrated multiple modules and communicated with team to develop the most efficient solutions",
-        "Also worked on Node.js with a team handling the Easypaisa web application for vendors. I helped the team focus on modularisation and streamlined productivity by providing reusable code"
+        "Worked with Python, ASP.NET MVC, JQUERY, MS SQL Server, Elasticsearch, Logstash and Kibana",
+        "Made POC to provide example of how the banking domain could utilize elastic search and reverse index based searches",
+        "Developed pipeline using logstash to port existing warehousing data to elastic search for faster querying",
+        "Trained different engineers regarding using Elastic search and about concepts related to indexing and information retrieval"
       ],
-    },
-    {
-      title: "Software Engineer II",
-      company_name: "Remotebase",
-      icon: rbLogo,
-      iconBg: "#FFFFFF",
-      date: "Dec 2021 - Present",
-      points: [
-        "Working with Walnut; a financial technology company that deals with resolving healthcare finance issues in the US. Primarily focused as a backend engineer with Java Springboot, AWS and MySQL",
-        "Worked with SWVL as a fullstack software engineer on swvl.com/travel website optimization. Utilizing Kubernetes, Node.js, React.js, MongoDb, Redis and GCP",
-        "Worked on the remotebase platform, utilizing technology stack that involves AWS amplify, Dynamo Db, AWS serverless lambdas, AWS Cognito, Appsync, Python and React.js"
-      ],
-    },
+    }
   ];
   
   const testimonials = [

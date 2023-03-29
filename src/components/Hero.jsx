@@ -32,7 +32,11 @@ const Hero = () => {
             </p>
           </div>
         </div>
-        <ComputersCanvas />
+        <div className='absolute inset-0 flex'>
+            <div className='w-1/4'></div>
+            <ComputersCanvas className="w-2/4"	/>
+            <div className='w-1/4'></div>
+        </div>
         <div className='absolute sm:bottom-14 bottom-16 sm:my-0 my-8 w-full 
          flex justify-center items-center'>
             <a href="#about">
