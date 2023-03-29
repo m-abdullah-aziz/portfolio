@@ -23,27 +23,39 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
-    const key = "PK9h9aQjNKonxYE9S"
-    const serviceId = "service_vmxhqyq"
-    const templateId = "template_q8463ai"
-    emailjs.send( serviceId, templateId, {
-      froom_name: form.name,
-      to_name: 'Muhammad Abdullah Aziz',
-      from_email: form.email,
-      to_email: 'abdullah.sortup@gmail.com',
-      message: form.message,
-    }, key).then(() => {
-      setLoading(false);
-      alert('Thanks! Lemme get back to you ASAP!');
 
-      setForm({
-        name: "", email: "", message: ""
-      })
-    }, (error) => {
+    if(!form.name){
+      alert("Please enter your name");
       setLoading(false);
-      console.log(error);
-      alert("Sorry! Something went wrong. Please email me at: muhammadabdullahaziz@outlook.com");
-    })
+    } else if(!form.email){
+      alert("Please enter your email");
+      setLoading(false);
+    } else if(!form.message){
+      alert("Please enter a message");
+      setLoading(false);
+    } else {
+      const key = "PK9h9aQjNKonxYE9S"
+      const serviceId = "service_vmxhqyq"
+      const templateId = "template_q8463ai"
+      emailjs.send( serviceId, templateId, {
+        froom_name: form.name,
+        to_name: 'Muhammad Abdullah Aziz',
+        from_email: form.email,
+        to_email: 'abdullah.sortup@gmail.com',
+        message: form.message,
+      }, key).then(() => {
+        setLoading(false);
+        alert('Thanks! Lemme get back to you ASAP!');
+
+        setForm({
+          name: "", email: "", message: ""
+        })
+      }, (error) => {
+        setLoading(false);
+        console.log(error);
+        alert("Sorry! Something went wrong. Please email me at: muhammadabdullahaziz@outlook.com");
+      })
+    }
   }
 
   return (
