@@ -18,10 +18,8 @@ const App = () => {
           <Works />
           <Feedbacks />
           */}
-          <div className='relative z-0'>
-            <Contact />
-            <StarsCanvas />
-          </div>
+          <Contact />
+          <StarsCanvas />
       </div>
       </BrowserRouter>
   )
