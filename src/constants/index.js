@@ -122,7 +122,7 @@ import {
       company_name: "Moniepoint Group",
       icon: mpLogo,
       iconBg: "#FFFFFF",
-      date: "Dec 2021 - Present",
+      date: "Jan, 2024 - Present",
       points: [
         "Working with Moniepoint Group Nigeria to help build Nigeria's next payment solutions.",
         "Mostly focused on payments via POS and designed backend systems for developers portal, repairing and management POS inventory.",
@@ -134,7 +134,7 @@ import {
       company_name: "Remotebase",
       icon: rbLogo,
       iconBg: "#FFFFFF",
-      date: "Dec 2021 - Present",
+      date: "Dec, 2021 - Dec, 2023",
       points: [
         "Working with Walnut; a financial technology company that deals with resolving healthcare finance issues in the US. Primarily focused as a backend engineer with Java Springboot, AWS and MySQL",
         "Worked with SWVL as a fullstack software engineer on swvl.com/travel website optimization. Utilizing Kubernetes, Node.js, React.js, MongoDb, Redis and GCP",
@@ -146,7 +146,7 @@ import {
       company_name: "Systems Limited",
       icon: systemsLogo,
       iconBg: "#FFFFFF",
-      date: "Jul 2021 - Nov 2021",
+      date: "Jul, 2021 - Nov, 2021",
       points: [
         "Worked as a part of integration frameworks department. Etisalat is the client for whom I developed full stack solutions with java and angular. Integrated multiple modules and communicated with team to develop the most efficient solutions",
         "Also worked on Node.js with a team handling the Easypaisa web application for vendors. I helped the team focus on modularisation and streamlined productivity by providing reusable code"
@@ -157,7 +157,7 @@ import {
       company_name: "Strategic Systems International",
       icon: ssiLogo,
       iconBg: "#FFFFFF",
-      date: "Jul 2020 - Jul 2021",
+      date: "Jul, 2020 - Jul, 2021",
       points: [
         "Worked with technologies including Java SpringBoot and AWS cloud technologies (Lambda functions, S3, EC2, cloud watch, Redshift and RDS). Utilized micro-service architecture",
         "Worked on python based scrappers to scrape data related to different products on walmart and amazon on different client accounts to provide statistics",
@@ -169,7 +169,7 @@ import {
       company_name: "Autosoft Dynamic",
       icon: autosoftLogo,
       iconBg: "#FFFFFF",
-      date: "Jul 2019 - May 2020",
+      date: "Jul, 2019 - May, 2020",
       points: [
         "Worked with Python, ASP.NET MVC, JQUERY, MS SQL Server, Elasticsearch, Logstash and Kibana",
         "Made POC to provide example of how the banking domain could utilize elastic search and reverse index based searches",
