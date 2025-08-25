@@ -126,7 +126,7 @@ import {
       points: [
         "Working with Moniepoint Group Nigeria to help build Nigeria's next payment solutions.",
         "Mostly focused on payments via POS and designed backend systems for developers portal, repairing and management POS inventory.",
-        "Senior Backend enginer working with Java Springboot, Kafka, Kubernetes, Docker and Next.js"
+        "Senior Backend engineer working with Java Springboot, Kafka, Kubernetes, Docker and Next.js"
       ],
     },
     {
