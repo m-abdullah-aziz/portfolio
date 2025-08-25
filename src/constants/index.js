@@ -117,6 +117,18 @@ import {
   
   const experiences = [
     {
+      title: "Senior Backend Engineer",
+      company_name: "Moniepoint Group",
+      icon: rbLogo,
+      iconBg: "#FFFFFF",
+      date: "Dec 2021 - Present",
+      points: [
+        "Working with Moniepoint Group Nigeria to help build Nigeria's next payment solutions.",
+        "Mostly focused on payments via POS and designed backend systems for developers portal, repairing and management POS inventory.",
+        "Senior Backend enginer working with Java Springboot, Kafka, Kubernetes, Docker and Next.js"
+      ],
+    },
+    {
       title: "Software Engineer II",
       company_name: "Remotebase",
       icon: rbLogo,
