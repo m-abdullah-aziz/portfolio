@@ -10,6 +10,7 @@ import javaSpringLogo from "./javaSpringLogo.png"
 import ssiLogo from "./ssiLogo.jpeg"
 import systemsLogo from "./systemsLogo.jpeg"
 import rbLogo from "./rbLogo.jpeg"
+import mpLogo from "./mpLogo.jpeg"
 import autosoftLogo from "./autosoftLogo.png"
 import github from "./github.png";
 import menu from "./menu.svg";
@@ -74,5 +75,6 @@ export {
   systemsLogo,
   autosoftLogo,
   rbLogo,
-  ssiLogo
+  ssiLogo,
+  mpLogo
 };
