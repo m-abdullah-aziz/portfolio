@@ -18,6 +18,7 @@ import {
     systemsLogo,
     ssiLogo,
     rbLogo,
+    mpLogo,
     autosoftLogo,
     carrent,
     jobit,
@@ -119,7 +120,7 @@ import {
     {
       title: "Senior Backend Engineer",
       company_name: "Moniepoint Group",
-      icon: rbLogo,
+      icon: mpLogo,
       iconBg: "#FFFFFF",
       date: "Dec 2021 - Present",
       points: [
