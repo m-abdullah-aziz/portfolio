@@ -72,7 +72,7 @@ const Hero = () => {
                 transition={{ delay: 0.5 }}
                 className="flex flex-wrap gap-2 mt-8"
               >
-                {['Java Spring boot', 'Python FAST API', 'Node.js', 'GoLang', 'SQL', 'GCP', 'AWS', 'Docker', 'K8s', 'React', 'React Native'].map((tech) => (
+                {['Java', 'Python', 'JavaScript', 'GoLang', 'Sockets', 'Kafka', 'SQL', 'GCP', 'AWS', 'Docker', 'K8s', 'Mobile Apps', 'Web Apps'].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 py-1 text-sm border border-[#915eff]/30 rounded-full text-white/80 hover:border-[#915eff]/60 transition-colors"
@@ -100,7 +100,7 @@ const Hero = () => {
               <pre className="text-gray-300 overflow-hidden">
                 <code>{`const buildScalableSystems = () => {
   const skills = {
-    backend: ['Java Spring boot', 'Node.js', 'Python'],
+    backend: ['Java Spring boot', 'Node.js', 'Django', "Fast API"],
     databases: ['MySQL', 'PostgreSQL', 'MongoDb', 'Redis'],
     cloud: ['GCP', 'AWS', 'Docker', 'K8s'],
     frontend: ['React', 'React Native']
@@ -117,8 +117,8 @@ const Hero = () => {
         </div>
       </div>
 
-      {/* Scroll indicator */}
-      <div className='absolute sm:bottom-14 bottom-16 w-full flex justify-center items-center z-10'>
+      {/* Scroll indicator - hidden on mobile */}
+      <div className='hidden sm:flex absolute bottom-14 w-full justify-center items-center z-10'>
         <a href="#about">
           <div className='indicator'>
             <span></span>
