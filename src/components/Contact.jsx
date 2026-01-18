@@ -1,4 +1,4 @@
-import { useState, useRef} from 'react'
+import { useState, useRef, useEffect} from 'react'
 import { motion } from 'framer-motion';
 import emailjs from  "@emailjs/browser";
 
@@ -7,6 +7,7 @@ import { slideIn } from '../utils/motion';
 import { SectionWrapper } from '../hoc';
 
 const Contact = () => {
+  const [isMobile, setIsMobile] = useState(false);
   const formRef = useRef();
   const [ form, setForm ] = useState({
       name: "",
@@ -14,6 +15,18 @@ const Contact = () => {
       message: "",
   });
   const [ loading, setLoading ] = useState(false);
+
+  useEffect(() => {
+    const mediaQuery = window.matchMedia("(max-width: 768px)");
+    setIsMobile(mediaQuery.matches);
+
+    const handleMediaQueryChange = (event) => {
+      setIsMobile(event.matches);
+    };
+
+    mediaQuery.addEventListener("change", handleMediaQueryChange);
+    return () => mediaQuery.removeEventListener("change", handleMediaQueryChange);
+  }, []);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -108,13 +121,16 @@ const Contact = () => {
 
        </motion.div>
 
-       <motion.div
-          variants={slideIn('right', "tween", 0.2, 1)}
-          className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] 
-          flex'
-       >
-        <img src='./globe.png' className='m-auto'/>
-       </motion.div>
+      {!isMobile ? (
+          
+        <motion.div
+            variants={slideIn('right', "tween", 0.2, 1)}
+            className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] 
+            flex'
+        >
+          <img src='./globe.png' className='m-auto'/>
+        </motion.div>
+      ) : (<></>)} 
     </div>
   )
 }
