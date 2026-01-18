@@ -72,7 +72,7 @@ const Hero = () => {
                 transition={{ delay: 0.5 }}
                 className="flex flex-wrap gap-2 mt-8"
               >
-                {['Java', 'Python', 'JavaScript', 'GoLang', 'Sockets', 'Kafka', 'SQL', 'GCP', 'AWS', 'Docker', 'K8s', 'Mobile Apps', 'Web Apps'].map((tech) => (
+                {['Java', 'Python', 'JavaScript', 'GoLang', 'Sockets', 'Kafka', 'Rabbit MQ', 'SQL', 'GCP', 'AWS', 'Docker', 'K8s', 'Mobile Apps', 'Web Apps'].map((tech) => (
                   <span
                     key={tech}
                     className="px-3 py-1 text-sm border border-[#915eff]/30 rounded-full text-white/80 hover:border-[#915eff]/60 transition-colors"
@@ -100,7 +100,7 @@ const Hero = () => {
               <pre className="text-gray-300 overflow-hidden">
                 <code>{`const buildScalableSystems = () => {
   const skills = {
-    backend: ['Java Spring boot', 'Node.js', 'Django', "Fast API"],
+    backend: ['Spring boot', 'Node.js', 'Django', "Fast API"],
     databases: ['MySQL', 'PostgreSQL', 'MongoDb', 'Redis'],
     cloud: ['GCP', 'AWS', 'Docker', 'K8s'],
     frontend: ['React', 'React Native']
