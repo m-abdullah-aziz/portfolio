@@ -1,4 +1,4 @@
-import { BallCanvas, ComputersCanvas, StarsCanvas } from './canvas';
+import { BallCanvas, StarsCanvas } from './canvas';
 import Hero from './Hero';
 import Navbar from './Navbar';
 import About from './About';
@@ -19,7 +19,6 @@ export {
   Feedbacks,
   Contact,
   BallCanvas, 
-  ComputersCanvas, 
   StarsCanvas,
   GotoTop,
 }

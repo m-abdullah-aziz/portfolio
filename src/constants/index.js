@@ -13,16 +13,11 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
     systemsLogo,
     ssiLogo,
     rbLogo,
     mpLogo,
     autosoftLogo,
-    carrent,
-    jobit,
-    tripguide,
     threejs,
     djangoLogo,
   } from "../assets";
@@ -225,7 +220,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
+      image: autosoftLogo,
       source_code_link: "https://github.com/",
     },
     {
@@ -246,7 +241,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: jobit,
+      image: autosoftLogo,
       source_code_link: "https://github.com/",
     },
     {
@@ -267,7 +262,7 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
+      image: autosoftLogo,
       source_code_link: "https://github.com/",
     },
   ];

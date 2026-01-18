@@ -34,14 +34,14 @@ const Contact = () => {
       alert("Please enter a message");
       setLoading(false);
     } else {
-      const key = "PK9h9aQjNKonxYE9S"
-      const serviceId = "service_vmxhqyq"
-      const templateId = "template_q8463ai"
+      const key = "a_Q-dRDD5HpbNky_Q"
+      const serviceId = "service_hqz544a"
+      const templateId = "template_qevo2ps"
       emailjs.send( serviceId, templateId, {
         from_name: form.name,
         to_name: 'Muhammad Abdullah Aziz',
         from_email: form.email,
-        to_email: 'abdullah.sortup@gmail.com',
+        to_email: 'abdullahaziz1998@gmail.com',
         message: form.message,
       }, key).then(() => {
         setLoading(false);
