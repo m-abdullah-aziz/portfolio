@@ -24,7 +24,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,#4f4f4f2e_1px,transparent_1px),linear-gradient(to_bottom,#4f4f4f2e_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)]" />
       
       {/* Main content - centered vertically with navbar spacing */}
-      <div className={`${styles.paddingX} absolute inset-0 pt-20 sm:pt-0 max-w-7xl mx-auto flex items-center z-10`}>
+      <div className={`${styles.paddingX} absolute inset-0 pt-10 sm:pt-0 max-w-7xl mx-auto flex items-center z-10`}>
         <div className="w-full flex flex-col lg:flex-row items-start lg:items-center gap-8 lg:gap-12">
           {/* Left side - your content */}
           <div className="flex flex-row gap-5 flex-1">
