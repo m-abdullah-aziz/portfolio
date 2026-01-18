@@ -19,6 +19,7 @@ const MobileExperienceCard = ({ experience }) => (
         <div className="w-12 h-12 rounded-full flex items-center justify-center" 
              style={{ background: experience.iconBg }}>
           <img 
+            loading="lazy"
             src={experience.icon} 
             alt={experience.company_name}
             className="w-8 h-8 object-contain"
@@ -58,6 +59,7 @@ const DesktopExperienceCard = ({ experience }) => (
     icon={
       <div className="flex justify-center items-center w-full h-full">
         <img
+          loading="lazy"
           src={experience.icon}
           alt={experience.company_name}
           className="w-[60%] h-[60%] object-contain"

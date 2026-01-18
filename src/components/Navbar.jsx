@@ -66,6 +66,7 @@ const Navbar = () => {
             aria-label="Toggle menu"
           >
             <img 
+              loading="lazy"
               src={toggle ? close : menu} 
               alt="menu"
               className='w-[24px] h-[24px] object-contain' 

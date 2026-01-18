@@ -128,7 +128,7 @@ const Contact = () => {
             className='xl:flex-1 xl:h-auto md:h-[550px] h-[350px] 
             flex'
         >
-          <img src='./globe.png' className='m-auto'/>
+          <img loading="lazy" src='./globe.png' className='m-auto'/>
         </motion.div>
       ) : (<></>)} 
     </div>
